@@ -21,7 +21,6 @@ int main(){
     return 0;
 }
 
-
 void tabulate(double (*f)(double), double first, double last, double incr)
 {
     for (; first<=last; first+=incr)

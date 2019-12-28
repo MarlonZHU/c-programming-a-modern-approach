@@ -1,0 +1,13 @@
+1. add line: printf("DEBUG 1\n");
+2. Ese +  q + a
+    q indicates start the recording
+    a indicates to store the recording in register a
+3. Esc +  yy; jump to next line; + p
+    yy copy     p paste
+4. move cursor to number 1; Ctrl + a
+    ctrl + a increment the number to 2
+5. 20@a repeat this job 20 times
+
+6. %/DEBUG/d
+    delete all lines which contain DEBUG
+
