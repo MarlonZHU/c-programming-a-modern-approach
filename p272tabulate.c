@@ -26,4 +26,3 @@ void tabulate(double (*f)(double), double first, double last, double incr)
     for (; first<=last; first+=incr)
         printf("%f: %f\n",first, f(first));
 }
-
