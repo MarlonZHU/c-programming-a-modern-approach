@@ -1,8 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h>
-typydef int bool
-
 
 void make_empty(void);
 bool is_empty(void);
